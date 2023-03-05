@@ -1,0 +1,52 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    font-size: 20px;
+    font-weight: 200;
+    justify-content: end;
+}
+
+body {
+    padding: 0 200px 0 200px;
+    background-color: blanchedalmond;
+}
+
+footer {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul {
+    display: inline;
+    background-color: bisque;
+}
+
+ol>li {
+    display: block;
+    font-size: larger;
+    font-weight: 250;
+}
+
+ul>li {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    display: inline;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.divpic {
+    display: flex;
+    padding: 0 20px 0 20px;
+}
